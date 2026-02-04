@@ -49,6 +49,9 @@ const App: React.FC = () => (
         <Route path="/message/:id">
            <ViewMessage />
         </Route>
+        <Route path="/character/:id">
+           <ViewMessage />
+        </Route>
       </IonRouterOutlet>
     </IonReactRouter>
   </IonApp>
